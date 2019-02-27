@@ -15,7 +15,7 @@ System Programming using C
 - - - - 
 * This project is designed to get knowledge of Hardware abstraction model of operating system.
 * We select Linux operating system to write character device driver as it is open source.
-Device driver is considered as a kernel module designed for specific purpose. Device
+* Device driver is considered as a kernel module designed for specific purpose. Device
 driver is used to interact between kernel and device.
 * In this device driver we provide all operational function like open ,close, read, write.
 * Our client application access which is written in C can access all this features of Device
@@ -26,3 +26,6 @@ functionality of kernel.
 * All the record of activities performed by the device driver are maintained in kernel log
 file as we can not directly interact with the user mode entity.
 - - - - 
+#### References
+* Linux Device Drivers, by Jonathan Corbet, Alessandro Rubini, and Greg Kroah-Hartman.
+* The Linux Kernel Module Programming Guide by Peter Jay Salzman,Michael Burian,Ori Pomerantz.
